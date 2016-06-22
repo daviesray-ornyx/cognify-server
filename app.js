@@ -10,7 +10,7 @@ var routes = require('./routes/routes');
 
 var app = express();
 
-mongoose.connect('mongodb://cognify_admin:cognify_admin@ds037627.mongolab.com:37627/cognify_db');
+mongoose.connect('mongodb://cognify_admin:username@password.mongolab.com:37627/db_name');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
